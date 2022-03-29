@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+/* How it works */
+
+.how-works{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.line{
+    width: 90px;
+    border: 1px solid #B7B3B3;
+    margin-top: 30px;
+}
+
+.how-works-descr{
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 0.6;
+    margin-top: 30px;
+}
+
+/* owl carousel */
+
+.owl-carousel{
+    width: 90%;
+    margin: auto;
+}
+
+.owl-carousel .item{
+    width: 50%;
+    margin: auto;
+}
+
+.owl-carousel img{
+    margin-bottom: 55px;
+}
+
+.owl-prev{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 40%;
+    left: 0%;
+    background-color: #F1F1F1 !important;
+    border-radius: 50% !important;
+}
+
+
+.owl-next{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 40%;
+    right: 0%;
+    background-color: #F1F1F1 !important;
+    border-radius: 50% !important;
+}
+
+/* balance-check */
+
+.balance-check{
+    height: 100%;
+    background-color: #E5E5E5;  
+}
+
+.bcheck-img{
+    position: relative;
+}
+
+.bcheck-img img{
+    position: absolute;
+}
+
+.bcheck-img-1{
+    margin-top: 140px;
+    margin-left: 70px;
+}
+
+.real-time{
+    font-weight: 600;
+    font-size: 40px;
+    width: 28%;
+    margin-top: 240px;
+}
+
+.balance-check-heading{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.balance-check-line{
+    width: 50px;
+    border: 3px solid #B7B3B3;
+}
+
+.balance-check-descr{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.descr{
+    width: 399px;
+    margin-top: 50px;
+    margin-right: 22px;
+}
+
+.link{
+    color: #6C63FF;
+    margin-right: 295px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.balance-check-link{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* services */
+
+.services{
+    height: 100%;
+}
+
+.services-haeding{
+    font-weight: 600;
+    font-size: 44px;
+    
+}
+
+.heading-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.heading-text img{
+    margin-top: 34px;
+    margin-left: 10px;
+}
+
+.sendpay{
+    margin-top: 29px;
+    margin-left: 15px;
+    color: #6C63FF;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.services-line{
+    width: 90px;
+    border: 1px solid #B7B3B3;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.services-descr p{
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    color: #B7B3B3;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* bank */
+
+.bank{
+    margin-top: 70px;
+    margin-left: 240px;
+    display: flex;
+
+}
+
+.bank-img{
+    margin-top: 10px;
+}
+
+
+.bank-heading{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.bank-descr{
+    width: 40%;
+}
+
+.bank-descr p{
+    margin-left: 335px;
+    font-weight: 600;
+    font-weight: 18px;
+    color: #B7B3B3;
+    margin-top: -28px;
+}
+
+/* watch */
+
+.watch{
+    margin-left: 1000px;
+    margin-top: -125px;
+    display: flex;
+}
+
+.watch-heading{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.watch-descr{
+    margin-left: 1100px;
+    font-weight: 600;
+    font-weight: 18px;
+    color: #B7B3B3;
+    margin-top: -20px;
+    width: 20%;
+}
+
+/* phone */
+
+.phone{
+    margin-top: 160px;
+    margin-left: 240px;
+    display: flex;
+}
+
+
+.phone-heading{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px
+}
+
+.phone-descr{
+    margin-left: 305px;
+    font-weight: 600;
+    font-weight: 18px;
+    color: #B7B3B3;
+    margin-top: -10px;
+    width: 20%;
+}
+
+/* truck */
+
+.truck{
+    margin-left: 1020px;
+    margin-top: -100px;
+    display: flex;
+}
+
+.truck-heading{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.truck-descr{
+    margin-left: 1120px;
+    font-weight: 600;
+    font-weight: 18px;
+    color: #B7B3B3;
+    margin-top: -10px;
+    width: 20%;
+}
+
+/* about us */
+
+.about-us{
+    height: 50%;
+    background-color: #6C63FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.people-saying{
+    width: 10%;
+    font-size: 33px;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+}     
+
+.about-us-text{
+    padding-left: 100px;
+}
+
+.about-us-line{
+    width: 20%;
+    opacity: 0.8;
+    border: 0.5px solid #FFFFFF;
+}
+
+.about-us-descr{
+    color: white;
+    font-size: 22px;
+}
+
+.about-us-item{
+    background-color: white;
+    border-radius: 5px;
+}
